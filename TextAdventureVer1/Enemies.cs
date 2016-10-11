@@ -8,7 +8,7 @@ namespace TextAdventureVer1
 {
     public class Enemies : CreatureStats            // Enemies and the base class for all creatues.
     {
-        public string ID { get; set; }
+        public int ID { get; set; }
         public string Name { get; set; }
         public int MaximumDamage { get; set; }
         public int Credit { get; set; }

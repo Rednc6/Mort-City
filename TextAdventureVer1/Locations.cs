@@ -10,14 +10,14 @@ namespace TextAdventureVer1
     {
         public int ID { get; set; }
         public Items AccessItem { get; set; }
-        public PlayerBPN BPN_available { get; set; }
+        public BPN BPN_available { get; set; }
         public Enemies RoamingEnemies { get; set; }
         public Locations ExitLocation { get; set; }
         public Locations EnterLocation { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
 
-        public Locations(int id, string name, string description, Items accessItem = null, PlayerBPN bPN_available = null, 
+        public Locations(int id, string name, string description, Items accessItem = null, BPN bPN_available = null, 
             Enemies roamingEnemies = null)
         {
             ID = id;

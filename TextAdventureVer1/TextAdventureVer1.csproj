@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PlayerBPN.cs" />
+    <Compile Include="BPN.cs" />
     <Compile Include="BPNcompleted.cs" />
     <Compile Include="BPNlog.cs" />
     <Compile Include="CreatureStats.cs" />

@@ -8,10 +8,10 @@ namespace TextAdventureVer1
 {
     public class BPNlog         // Class for quests the player is on
     {
-        public PlayerBPN Details { get; set; }
+        public Items Details { get; set; }
         public  int Quantity { get; set; }
-
-        public BPNlog(PlayerBPN details, int quantity)
+            
+        public BPNlog(Items details, int quantity)
         {
             Details = details;
             Quantity = quantity;

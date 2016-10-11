@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace TextAdventureVer1
 {
-    class BPNcompleted                  // class for quest the player has completed 
+    public class BPNcompleted                  // class for quest the player has completed 
     {
-        public PlayerBPN Details { get; set; }
+        public BPN Details { get; set; }
         public bool IsCompleted { get; set; }
 
-        public BPNcompleted(PlayerBPN details)
+        public BPNcompleted(BPN details)
         {
             Details = details;
             IsCompleted = false;
